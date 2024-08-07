@@ -1,0 +1,41 @@
+{
+  "name": "typescraped",
+  "version": "0.1.0",
+  "description": "Type-Safe, Configurable Web Scraping Utility",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigogo/typescraped.git"
+  },
+  "keywords": [
+    "web scraping",
+    "typescript",
+    "schema",
+    "type-safe",
+    "configurable"
+  ],
+  "author": "Nico Harather <nicoharather@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nigogo/typescraped/issues"
+  },
+  "homepage": "https://github.com/nigogo/typescraped#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^22.1.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
